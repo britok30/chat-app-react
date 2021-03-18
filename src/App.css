@@ -3,28 +3,35 @@
     font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
         Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
         Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     letter-spacing: 0.5px;
 }
 
 .ce-chat-list {
-    background-color: rgb(240, 240, 240) !important;
+    background-color: #243447 !important;
+}
+
+.ce-input {
+    background: #fff !important;
 }
 
 .ce-chats-container {
-    background-color: rgb(240, 240, 240) !important;
+    background-color: #243447 !important;
 }
 
 .ce-active-chat-card {
-    background-color: #cabcdc !important;
-    border: 4px solid #cabcdc !important;
+    background-color: #7289da !important;
+    border: 1px solid #99aab5 !important;
     border-radius: 0px !important;
 }
 
 .ce-chat-subtitle-text {
-    color: #595959 !important;
+    color: #243447 !important;
 }
 
 .ce-chat-form-container {
+    background: #243447 !important;
     padding-bottom: 20px !important;
 }
 
@@ -35,9 +42,14 @@
 
 .ce-primary-button {
     border-radius: 6px !important;
-    background-color: #7554a0 !important;
+    background-color: #7289da !important;
     position: relative;
     bottom: 1px;
+}
+
+.ce-person-text,
+.ce-section-title {
+    color: #fff;
 }
 
 .ce-danger-button {
@@ -46,17 +58,17 @@
 }
 
 .ce-settings {
-    background-color: rgb(240, 240, 240) !important;
+    background-color: #243447 !important;
 }
 
 .ce-autocomplete-input {
     border-radius: 6px !important;
-    border: 1px solid #3b2a50 !important;
+    border: 1px solid #333456 !important;
 }
 
 .ce-autocomplete-options {
     border-radius: 6px !important;
-    border: 1px solid #3b2a50 !important;
+    border: 1px solid #333456 !important;
     background-color: white !important;
 }
 
@@ -74,7 +86,7 @@
     height: 100%;
     width: 100%;
     overflow: scroll;
-    background-color: rgb(240, 240, 240);
+    background-color: #243447;
 }
 
 .chat-title-container {
@@ -84,13 +96,13 @@
 }
 
 .chat-title {
-    color: #7554a0;
+    color: #7289da;
     font-weight: 800;
     font-size: 24px;
 }
 
 .chat-subtitle {
-    color: #7554a0;
+    color: #7289da;
     font-weight: 600;
     font-size: 12px;
     padding-top: 4px;
@@ -124,6 +136,7 @@
     font-size: 16px;
     border-radius: 6px;
     max-width: 60%;
+    background: #7289da !important;
 }
 
 .message-image {
@@ -158,7 +171,8 @@
     bottom: 0px;
     width: calc(100% - 36px);
     padding: 18px;
-    background-color: rgb(240, 240, 240);
+    background-color: #243447;
+    border-radius: 4px;
 }
 
 .message-form {
