@@ -9,7 +9,7 @@
 }
 
 .ce-chat-list {
-    background-color: #243447 !important;
+    background-color: #141d26 !important;
 }
 
 .ce-input {
@@ -17,21 +17,21 @@
 }
 
 .ce-chats-container {
-    background-color: #243447 !important;
+    background-color: #141d26 !important;
 }
 
 .ce-active-chat-card {
-    background-color: #7289da !important;
+    background-color: #243447 !important;
     border: 1px solid #99aab5 !important;
     border-radius: 0px !important;
 }
 
 .ce-chat-subtitle-text {
-    color: #243447 !important;
+    color: #141d26 !important;
 }
 
 .ce-chat-form-container {
-    background: #243447 !important;
+    background: #141d26 !important;
     padding-bottom: 20px !important;
 }
 
@@ -42,7 +42,7 @@
 
 .ce-primary-button {
     border-radius: 6px !important;
-    background-color: #7289da !important;
+    background-color: #243447 !important;
     position: relative;
     bottom: 1px;
 }
@@ -58,7 +58,7 @@
 }
 
 .ce-settings {
-    background-color: #243447 !important;
+    background-color: #141d26 !important;
 }
 
 .ce-autocomplete-input {
@@ -86,7 +86,7 @@
     height: 100%;
     width: 100%;
     overflow: scroll;
-    background-color: #243447;
+    background-color: #141d26;
 }
 
 .chat-title-container {
@@ -96,13 +96,13 @@
 }
 
 .chat-title {
-    color: #7289da;
+    color: #243447;
     font-weight: 800;
     font-size: 24px;
 }
 
 .chat-subtitle {
-    color: #7289da;
+    color: #243447;
     font-weight: 600;
     font-size: 12px;
     padding-top: 4px;
@@ -136,7 +136,7 @@
     font-size: 16px;
     border-radius: 6px;
     max-width: 60%;
-    background: #7289da !important;
+    background: #243447 !important;
 }
 
 .message-image {
@@ -171,7 +171,7 @@
     bottom: 0px;
     width: calc(100% - 36px);
     padding: 18px;
-    background-color: #243447;
+    background-color: #141d26;
     border-radius: 4px;
 }
 
@@ -231,7 +231,6 @@
 .wrapper {
     height: 100vh;
     width: 100%;
-    background: rgb(117, 84, 160);
     background: url('../src/assets/images/bigsur.jpeg') no-repeat center
         center/cover;
     display: flex;
