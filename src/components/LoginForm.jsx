@@ -1,17 +1,37 @@
+import axios from 'axios';
 import React, { useState } from 'react';
 
 const LoginForm = () => {
-    const [username, setUsername] = usesate('');
+    const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
+
+        const authObject = {
+            'Project-ID': '906adec1-1649-4806-8dba-44e36a9400cc',
+            'User-Name': username,
+            'User-Secret': password,
+        };
+
+        try {
+            await axios.get('https://api.chatengine.io/chats', {
+                headers: authObject,
+            });
+
+            localStorage.setItem('username', username);
+            localStorage.setItem('password', password);
+
+            window.location.reload();
+        } catch (error) {
+            console.log(error);
+        }
     };
 
     return (
         <div className="wrapper">
-            <h1 className="title">Chat Application</h1>
             <div className="form" onSubmit={handleSubmit}>
+                <h1 className="title">Discord</h1>
                 <input
                     type="text"
                     value={username}
